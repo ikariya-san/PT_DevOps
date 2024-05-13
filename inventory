@@ -1,0 +1,8 @@
+[db_servers]
+db_master ansible_host=192.168.1.45 ansible_user=kizoku1 ansible_password=kali
+db_slave ansible_host=192.168.1.46 ansible_user=kizoku2 ansible_password=kali
+
+[bot_servers]
+tg_bot ansible_host=192.168.1.28 ansible_user=kali ansible_password=kali
+
+
